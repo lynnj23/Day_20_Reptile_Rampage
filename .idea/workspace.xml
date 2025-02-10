@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="767ce8f3-9700-4aa3-8f31-added2e23b67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day 17 - Quiz Game/.idea/Day 17 - Quiz Game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day 17 - Quiz Game/30_07_2024_Quiz_Game/.idea/30_07_2024_Quiz_Game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day24_General/Mail+Merge+Project+Start/Mail Merge Project Start/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day24_General/Mail+Merge+Project+Start/Mail Merge Project Start/.idea/Mail Merge Project Start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day24_General/Mail+Merge+Project+Start/Mail Merge Project Start/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day24_General/Mail+Merge+Project+Start/Mail Merge Project Start/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day24_General/Mail+Merge+Project+Start/Mail Merge Project Start/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day24_General/Mail+Merge+Project+Start/Mail Merge Project Start/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day24_General/Mail+Merge+Project+Start/Mail Merge Project Start/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Day_20_Reptile_Rampage_v1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reptile_Rampage_MAIN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reptile_body.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reptile_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
+    <list default="true" id="767ce8f3-9700-4aa3-8f31-added2e23b67" name="Changes" comment="1st Draft">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,19 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Reptile_Rampage_MAIN.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.food.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reptile_body.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scoreboard.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rljam/PycharmProjects/pythonProject/Day_20_Reptile_Rampage&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Reptile_Rampage_MAIN.executor": "Debug",
+    "Python.food.executor": "Run",
+    "Python.reptile_body.executor": "Debug",
+    "Python.scoreboard.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/rljam/PycharmProjects/pythonProject/Day_20_Reptile_Rampage"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,6 +74,15 @@
       <option name="presentableId" value="Default" />
       <updated>1729267640214</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st Draft">
+      <option name="closed" value="true" />
+      <created>1736595581292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736595581292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,14 +98,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1st Draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st Draft" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/scoreboard.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/reptile_body.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
